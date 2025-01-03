@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Tests", "7 - Tests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeathStarTrafficManager.Contracts", "DeathStarTrafficManager.Contracts\DeathStarTrafficManager.Contracts.csproj", "{F8579B09-05DD-4AAC-B3E9-A9342F425717}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeathStarTrafficManager.CrossCutting", "DeathStarTrafficManager.CrossCutting\DeathStarTrafficManager.CrossCutting.csproj", "{6BB3298D-F99E-4B02-A50A-67E96FA0125C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,7 @@ Global
 		{E2CED45D-9B69-4929-A4BE-E1FF6AE4BA7D} = {6C297C25-4487-4F44-99D0-E9933DDD4A1D}
 		{2C693995-FEC8-43A5-A5A9-3CA8A913C5C9} = {9D36070D-E73F-4569-9795-05765B40E87F}
 		{F8579B09-05DD-4AAC-B3E9-A9342F425717} = {C0E854A8-C2E7-462D-8568-3514A7714645}
+		{6BB3298D-F99E-4B02-A50A-67E96FA0125C} = {9FA45D60-C916-41BF-A205-9AD4938F8B21}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FA6EDF68-F3A3-45D9-82B9-4ACE4071D2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -57,5 +60,9 @@ Global
 		{F8579B09-05DD-4AAC-B3E9-A9342F425717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8579B09-05DD-4AAC-B3E9-A9342F425717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8579B09-05DD-4AAC-B3E9-A9342F425717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB3298D-F99E-4B02-A50A-67E96FA0125C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB3298D-F99E-4B02-A50A-67E96FA0125C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB3298D-F99E-4B02-A50A-67E96FA0125C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB3298D-F99E-4B02-A50A-67E96FA0125C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
