@@ -5,6 +5,9 @@
     <projectFile profileName="http">DeathStarTrafficManager.Api/DeathStarTrafficManager.Api.csproj</projectFile>
     <projectFile profileName="https">DeathStarTrafficManager.Api/DeathStarTrafficManager.Api.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="216f70dd-e139-4347-a7c8-3c6976081dcc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735778887539</updated>
-      <workItem from="1735778889104" duration="318000" />
+      <workItem from="1735778889104" duration="687000" />
     </task>
     <servers />
   </component>
