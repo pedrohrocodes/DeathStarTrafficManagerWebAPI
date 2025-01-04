@@ -4,7 +4,7 @@ namespace DeathStarTrafficManager.Domain.Entities;
 
 public class Planet : IPlanet
 {
-    public Guid PlanetId { get; private set; }
+    public Guid PlanetId { get; }
     public string Name { get; private set; }
     public float Rotation { get; private set; }
     public float Orbit { get; private set; }

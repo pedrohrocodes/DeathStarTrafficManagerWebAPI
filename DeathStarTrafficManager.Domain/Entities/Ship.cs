@@ -4,7 +4,7 @@ namespace DeathStarTrafficManager.Domain.Entities;
 
 public class Ship : IShip
 {
-    public Guid ShipId { get; private set; }
+    public Guid ShipId { get; }
     public string Name { get; private set; }
     public string Model { get; private set; }
     public int Passengers { get; private set; }

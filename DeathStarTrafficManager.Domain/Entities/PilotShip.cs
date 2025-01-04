@@ -4,11 +4,13 @@ namespace DeathStarTrafficManager.Domain.Entities;
 
 public class PilotShip : IPilotShip
 {
-    public Guid PilotId { get; private set; }
-    public Guid ShipId { get; private set; }
+    public Guid PilotId { get; }
+    public Guid ShipId { get; }
     public bool IsAuthorized { get; private set; }
 
-    internal PilotShip() { }
+    internal PilotShip()
+    {
+    }
 
     public PilotShip(Guid pilotId, Guid shipId)
     {
