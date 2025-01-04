@@ -1,12 +1,16 @@
+using DeathStarTrafficManager.Domain.Interfaces;
+
 namespace DeathStarTrafficManager.Domain.Entities;
 
-public class Pilot
+public class Pilot : IPilot
 {
     public Guid PilotId { get; private set; }
     public string Name { get; private set; }
     public string BirthYear { get; private set; }
     public Guid PlanetId { get; private set; }
 
+    internal Pilot() { }
+    
     public Pilot(string name, string birthYear, Guid planetId)
     {
         this.Name = name;
