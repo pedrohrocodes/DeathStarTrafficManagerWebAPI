@@ -1,4 +1,7 @@
+using System.Net.Http.Json;
+using DeathStarTrafficManager.Contracts.Contracts;
 using DeathStarTrafficManager.Contracts.Services;
+using DeathStarTrafficManager.Domain.Constants;
 
 namespace DeathStarTrafficManager.Application.Services;
 
@@ -9,9 +12,18 @@ public class ThirdPartyApiService : IThirdPartyApiService
         throw new NotImplementedException();
     }
 
-    public Task GetPlanetsAsync()
+    public async Task GetPlanetsAsync()
     {
-        throw new NotImplementedException();
+        var httpClient = new HttpClient();
+        var planetList = new List<PlanetDto>();
+        
+        ApiResult<PlanetDto> apiResult = null;
+
+        do
+        {
+            apiResult = await httpClient.GetFromJsonAsync<ApiResult<PlanetDto>>(apiResult?.Next ?? ThirdPartyApiConstants.API_PLANETS_URL);
+            planetList.Add(apiResult.Results);
+        } while (apiResult.Next != null);
     }
 
     public Task GetShipsAsync()

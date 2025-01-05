@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DeathStarTrafficManager.Contracts\DeathStarTrafficManager.Contracts.csproj" />
+      <ProjectReference Include="..\DeathStarTrafficManager.Domain\DeathStarTrafficManager.Domain.csproj" />
     </ItemGroup>
 
 </Project>

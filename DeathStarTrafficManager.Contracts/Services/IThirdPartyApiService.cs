@@ -1,3 +1,5 @@
+using DeathStarTrafficManager.Contracts.Contracts;
+
 namespace DeathStarTrafficManager.Contracts.Services;
 
 public interface IThirdPartyApiService
