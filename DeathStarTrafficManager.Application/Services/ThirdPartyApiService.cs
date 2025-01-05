@@ -1,29 +1,36 @@
 using System.Net.Http.Json;
 using DeathStarTrafficManager.Contracts.Contracts;
+using DeathStarTrafficManager.Contracts.Reponses;
 using DeathStarTrafficManager.Contracts.Services;
 using DeathStarTrafficManager.Domain.Constants;
+using DeathStarTrafficManager.Domain.Entities;
 
 namespace DeathStarTrafficManager.Application.Services;
 
 public class ThirdPartyApiService : IThirdPartyApiService
 {
-    public Task Syncronyze()
+    public async Task Syncronyze()
     {
-        throw new NotImplementedException();
+        await GetPlanetsAsync();
     }
 
-    public async Task GetPlanetsAsync()
+    public async Task<IEnumerable<PlanetDto>> GetPlanetsAsync()
     {
         var httpClient = new HttpClient();
         var planetList = new List<PlanetDto>();
-        
-        ApiResult<PlanetDto> apiResult = null;
+
+        ThirdPartyApiResponse<PlanetDto> thirdPartyApiResponse = null;
 
         do
         {
-            apiResult = await httpClient.GetFromJsonAsync<ApiResult<PlanetDto>>(apiResult?.Next ?? ThirdPartyApiConstants.API_PLANETS_URL);
-            planetList.Add(apiResult.Results);
-        } while (apiResult.Next != null);
+            thirdPartyApiResponse = await httpClient.GetFromJsonAsync<ThirdPartyApiResponse<PlanetDto>>(
+                thirdPartyApiResponse.Next ??
+                ThirdPartyApiConstants.API_PLANETS_URL);
+
+            planetList.AddRange(thirdPartyApiResponse.Results);
+        } while (thirdPartyApiResponse.Next != null);
+
+        return planetList;
     }
 
     public Task GetShipsAsync()

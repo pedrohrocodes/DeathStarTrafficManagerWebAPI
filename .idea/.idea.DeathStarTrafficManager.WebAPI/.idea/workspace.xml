@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="216f70dd-e139-4347-a7c8-3c6976081dcc" name="Changes" comment="" />
+    <list default="true" id="216f70dd-e139-4347-a7c8-3c6976081dcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DeathStarTrafficManager.WebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeathStarTrafficManager.WebAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeathStarTrafficManager.Application/Services/ThirdPartyApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeathStarTrafficManager.Application/Services/ThirdPartyApiService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeathStarTrafficManager.Contracts/Contracts/PlanetDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeathStarTrafficManager.Contracts/Contracts/PlanetDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeathStarTrafficManager.Contracts/Services/IThirdPartyApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DeathStarTrafficManager.Contracts/Services/IThirdPartyApiService.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,10 +75,55 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="DeathStarTrafficManager.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DeathStarTrafficManager.Api/DeathStarTrafficManager.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="DeathStarTrafficManager.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DeathStarTrafficManager.Api/DeathStarTrafficManager.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DeathStarTrafficManager.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DeathStarTrafficManager.Api/DeathStarTrafficManager.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DeathStarTrafficManager.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DeathStarTrafficManager.Api/DeathStarTrafficManager.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -112,6 +162,7 @@
       <workItem from="1735778889104" duration="687000" />
       <workItem from="1735869622631" duration="1660000" />
       <workItem from="1735950185860" duration="2687000" />
+      <workItem from="1736043751037" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Infrastructure project">
       <option name="closed" value="true" />
@@ -201,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735952805679</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implementing API third party service">
+      <option name="closed" value="true" />
+      <created>1736045025593</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736045025593</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementing PlanetDto and Get in API">
+      <option name="closed" value="true" />
+      <created>1736045989430</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736045989430</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +289,8 @@
     <MESSAGE value="Create Ship entity" />
     <MESSAGE value="Creating Planet entity" />
     <MESSAGE value="Creating TripHistory entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating TripHistory entity" />
+    <MESSAGE value="Implementing API third party service" />
+    <MESSAGE value="Implementing PlanetDto and Get in API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing PlanetDto and Get in API" />
   </component>
 </project>
