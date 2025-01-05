@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="216f70dd-e139-4347-a7c8-3c6976081dcc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DeathStarTrafficManager.WebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeathStarTrafficManager.WebAPI/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="216f70dd-e139-4347-a7c8-3c6976081dcc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,24 +18,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pedrohrocodes"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pedrohrocodes&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pedrohrocodes/DeathStarTrafficManagerWebAPI.git",
-    "accountId": "c2b7aa45-6bd9-4bf3-959f-53ba1529cde3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pedrohrocodes/DeathStarTrafficManagerWebAPI.git&quot;,
+    &quot;accountId&quot;: &quot;c2b7aa45-6bd9-4bf3-959f-53ba1529cde3&quot;
   }
-}]]></component>
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2r3DV07M6nlRAO6B1EAGqGq9990" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,6 +111,7 @@
       <updated>1735778887539</updated>
       <workItem from="1735778889104" duration="687000" />
       <workItem from="1735869622631" duration="1660000" />
+      <workItem from="1735950185860" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Infrastructure project">
       <option name="closed" value="true" />
@@ -144,7 +145,63 @@
       <option name="project" value="LOCAL" />
       <updated>1735870488205</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating Pilot entity">
+      <option name="closed" value="true" />
+      <created>1735950823911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735950823911</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updating gitignore">
+      <option name="closed" value="true" />
+      <created>1735951093445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735951093445</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creating Pilot entity interface">
+      <option name="closed" value="true" />
+      <created>1735951502395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735951502395</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creating PilotShip entity and interface">
+      <option name="closed" value="true" />
+      <created>1735951799028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735951799028</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create Ship entity">
+      <option name="closed" value="true" />
+      <created>1735952140214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735952140214</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Creating Planet entity">
+      <option name="closed" value="true" />
+      <created>1735952449173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735952449173</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creating TripHistory entity">
+      <option name="closed" value="true" />
+      <created>1735952805679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735952805679</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +215,13 @@
     <MESSAGE value="Creating Contracts library" />
     <MESSAGE value="Creating CrossCutting library" />
     <MESSAGE value="Creating Tests xUnit project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Tests xUnit project" />
+    <MESSAGE value="Creating Pilot entity" />
+    <MESSAGE value="Updating gitignore" />
+    <MESSAGE value="Creating Pilot entity interface" />
+    <MESSAGE value="Creating PilotShip entity and interface" />
+    <MESSAGE value="Create Ship entity" />
+    <MESSAGE value="Creating Planet entity" />
+    <MESSAGE value="Creating TripHistory entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating TripHistory entity" />
   </component>
 </project>
