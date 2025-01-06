@@ -1,4 +1,10 @@
+using Autofac.Extensions.DependencyInjection;
+using DeathStarTrafficManager.CrossCutting;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAutofac();
+builder.Services.AddScoped<IApplicationStartup, ApplicationStartup>();
 
 // Add services to the container.
 
